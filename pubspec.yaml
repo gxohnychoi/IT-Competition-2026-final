@@ -1,0 +1,50 @@
+name: ssuk_ssugi
+description: "쑥쑥이 - IoT 기반 아이 성장 관리 앱"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # 라우팅
+  go_router: ^14.2.0
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.2.0
+  firebase_messaging: ^15.1.3
+  firebase_database: ^11.1.4
+  shared_preferences: ^2.3.2
+
+  # 상태관리
+  flutter_riverpod: ^2.5.1
+
+  # 차트 (성장 그래프, 백분위 그래프용)
+  fl_chart: ^0.69.0
+
+  # 날짜 포맷
+  intl: ^0.19.0
+
+  # AI 코멘트 서비스 (백엔드 연동용)
+  http: ^1.2.2
+
+  # 소아과 방문용 성장 리포트 PDF
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/NotoSansKR-Regular.ttf

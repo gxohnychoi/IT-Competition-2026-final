@@ -1,0 +1,13 @@
+{
+  "name": "ssuk-ssugi-functions",
+  "description": "쑥쑥이 - 성장 분석 AI 코멘트 Cloud Functions",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-functions": "^6.0.0",
+    "firebase-admin": "^12.0.0"
+  },
+  "private": true
+}
