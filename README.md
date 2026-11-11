@@ -2,6 +2,8 @@
 
 유치원/어린이집 아동 성장 측정 무인 키오스크 시스템 — IT-Competition-2026
 
+## [ 발표자료 보기 ](docs/presentation/final_presentation.pdf)
+
 ## 시스템 아키텍처
 
 ```
