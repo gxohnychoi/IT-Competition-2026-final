@@ -46,4 +46,4 @@ firebase-config.json
 *.hex
 build/
 # OS
-Thumbs.db
+Thumbs.db.firebase/
